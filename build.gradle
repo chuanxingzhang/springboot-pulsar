@@ -15,6 +15,10 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
-    compileOnly 'org.projectlombok:lombok'
+    compile("org.springframework.boot:spring-boot-starter-web",)
+
+    compile( 'org.projectlombok:lombok')
+    compile("org.apache.pulsar:pulsar-client:2.3.0")
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
