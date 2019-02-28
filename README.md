@@ -24,6 +24,8 @@ namespace地址：https://pulsar.apache.org/docs/en/admin-api-namespaces/
 持久化topics地址：https://pulsar.apache.org/docs/en/admin-api-persistent-topics/
 
 
+restApi ：http://192.168.25.56:8080/admin/v2/persistent/data/data/my-topic/stats
+
 其余内容需要自己看官方文档！！！！！！！
 
 
